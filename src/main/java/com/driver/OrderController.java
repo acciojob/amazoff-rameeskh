@@ -129,5 +129,6 @@ public class OrderController {
         // remove it from the assigned order of that partnerId
 
         return new ResponseEntity<>(orderId + " removed successfully", HttpStatus.CREATED);
+
     }
 }
